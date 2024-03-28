@@ -1,0 +1,181 @@
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+/* ---------------------------------------------------------------------- */
+/*	Version 1200px
+/* ---------------------------------------------------------------------- */
+@media handheld, only screen and (max-width: 1200px) {
+  .testimonials h3 {
+    height: 90px;
+    width: 30%;
+  }
+  .testimonials .carousel {
+    margin-left: 30%;
+  }
+  .header-brand .brand {
+    margin: 0 auto 20px;
+  }
+}
+/* ---------------------------------------------------------------------- */
+/*	Version 992px
+/* ---------------------------------------------------------------------- */
+@media handheld, only screen and (max-width: 992px) {
+  .services {
+    height: auto;
+  }
+  .services .services-item {
+    width: 50%;
+  }
+  .services .services-item.height0,
+  .services .services-item.height1,
+  .services .services-item.height2 {
+    height: 300px;
+  }
+  .testimonials h3 {
+    border: none;
+    height: auto;
+    text-align: center;
+    width: 100%;
+  }
+  .testimonials .carousel {
+    margin-left: 0;
+  }
+  .testimonials .carousel .item {
+    text-align: center;
+  }
+  .testimonials .carousel-indicators {
+    position: static;
+    text-align: center;
+    width: 100%;
+  }
+  .posts {
+    padding-left: 0;
+  }
+  .posts .icon,
+  .posts .comments {
+    top: -60px;
+  }
+  .posts .comments {
+    left: 70px;
+  }
+  .categories {
+    -moz-column-count: 3;
+/* Firefox */
+    -webkit-column-count: 3;
+/* Safari and Chrome */
+    column-count: 3;
+  }
+  .sponsors div {
+    padding-top: 20px;
+    -moz-column-count: 3;
+/* Firefox */
+    -webkit-column-count: 3;
+/* Safari and Chrome */
+    column-count: 3;
+  }
+  .sponsors div figure {
+    margin: 0;
+  }
+  .sponsors strong:before {
+    left: 15%;
+  }
+  .resume .header-bottom h1 span {
+    display: block;
+    padding: 0;
+  }
+}
+/* ---------------------------------------------------------------------- */
+/*	Mobile Version 768px
+/* ---------------------------------------------------------------------- */
+@media handheld, only screen and (max-width: 767px) {
+  .navbar .navbar-nav .dropdown ul {
+    background-color: transparent;
+    position: static;
+    width: 100%;
+    margin: -10px 0 0 0;
+  }
+  .navbar .navbar-nav .dropdown ul li {
+    float: none;
+    padding: 0 0 0 2em;
+    width: 100%;
+  }
+  .navbar .navbar-nav .dropdown ul li a {
+    background-color: #3c4547;
+  }
+  .services .services-item {
+    width: 100%;
+  }
+  .services .services-item.height0,
+  .services .services-item.height1,
+  .services .services-item.height2 {
+    height: auto;
+  }
+  .how-works figure figcaption {
+    position: static;
+    width: auto;
+  }
+  .portfolio .portfolio-item.columns2,
+  .portfolio .portfolio-item.columns3 {
+    margin: 1%;
+    width: 98%;
+  }
+  .portfolio .portfolio-item.columns2:nth-child(odd),
+  .portfolio .portfolio-item.columns3:nth-child(odd) {
+    margin-bottom: 1%;
+    margin-top: 1%;
+  }
+  .portfolio-resume.head .carousel-indicators {
+    padding: 100px 0;
+  }
+  .categories {
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-count: 2;
+  }
+  .sponsors div {
+    -moz-column-count: 2;
+/* Firefox */
+    -webkit-column-count: 2;
+/* Safari and Chrome */
+    column-count: 2;
+  }
+  .countdown div {
+    border: none;
+    display: block;
+    margin-bottom: 50px;
+  }
+}
+/* ---------------------------------------------------------------------- */
+/*	Mobile Version 600px
+/* ---------------------------------------------------------------------- *
+
+@media handheld, only screen and (max-width: 600px) 
+
+
+/* ---------------------------------------------------------------------- */
+/*	Mobile Version 320px
+/* ---------------------------------------------------------------------- *
+@media handheld, only screen and (max-width: 400px) 
+	.bannercontainer 
+		display none
+
+/*
+     FILE ARCHIVED ON 09:51:44 Aug 01, 2018 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 16:46:37 Mar 28, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.649
+  exclusion.robots: 0.071
+  exclusion.robots.policy: 0.061
+  cdx.remote: 0.063
+  esindex: 0.009
+  LoadShardBlock: 70.444 (3)
+  PetaboxLoader3.datanode: 127.512 (5)
+  load_resource: 247.789 (2)
+  PetaboxLoader3.resolve: 117.664 (2)
+*/
